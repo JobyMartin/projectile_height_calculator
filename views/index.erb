@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projectile Height Calculator</title>
+  <link rel="stylesheet" href="/stylesheets/styles.css">
+  <link rel="icon" href="/images/projectile_calculator_icon1.png">
+</head>
+<body>
+  <h1>Projectile Height Calculator</h1>
+  <h2><%= @display %></h2>
+  <div class="buttons">
+    <form action="/startTimer" method="post">
+      <button id="start" type="submit">Start</button>
+    </form>
+    <form action="/stopTimer" method="post">
+      <button id="stop">Stop</button>
+    </form>
+  </div>
+</body>
+</html>
