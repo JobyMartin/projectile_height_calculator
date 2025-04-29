@@ -1,2 +1,12 @@
 [build]
   environment = { RUBY_VERSION = "3.0.1" }
+
+[[redirects]]
+  from = "/404"
+  to = "/index.erb"
+  status = 404
+
+[[redirects]]
+  from = "/*"
+  to = "/index.erb"
+  status = 200
